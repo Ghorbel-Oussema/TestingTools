@@ -1,0 +1,46 @@
+---
+sourceLocationPrefix: /work
+baselineLinesOfCode: 43544
+unicodeNewlines: true
+columnKind: utf16
+primaryLanguage: javascript
+inProgress:
+  primaryLanguage: javascript
+  installedExtractors:
+    yaml:
+     - /home/cli/codeql/yaml
+    html:
+     - /home/cli/codeql/html
+    properties:
+     - /home/cli/codeql/properties
+    xml:
+     - /home/cli/codeql/xml
+    python:
+     - /home/cli/codeql/python
+    csv:
+     - /home/cli/codeql/csv
+    rust:
+     - /home/cli/codeql/rust
+    java:
+     - /home/cli/codeql/java
+    go:
+     - /home/cli/codeql/go
+    csharp:
+     - /home/cli/codeql/csharp
+    actions:
+     - /home/cli/codeql/actions
+    ruby:
+     - /home/cli/codeql/ruby
+    cpp:
+     - /home/cli/codeql/cpp
+    javascript:
+     - /home/cli/codeql/javascript
+    swift:
+     - /home/cli/codeql/swift
+creationMetadata:
+  sha: 2da789224cbeabe23f0ec9f6ca2244de33f7c7f8
+  cliVersion: 2.24.2
+  creationTime: 2026-02-22T22:53:15.495800145Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: false

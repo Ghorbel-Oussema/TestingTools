@@ -1,0 +1,541 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt; 
+   font-weight: normal; 
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt; 
+   font-weight: normal; 
+   color: white;
+   background: #000066;
+   border: thin solid black;
+  }
+  .column-head
+  {
+   width: 15em;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<div>
+<a name="1"></a><table class="headerTable" width="300"><tr><td>juice-shop / 172.22.0.2 port 3000</td></tr></table>
+<table width="95%" class="dataTable">
+ <tr>
+   <td class="column-head" valign="top"><b>Target IP</b></td>
+   <td>172.22.0.2</td>
+ </tr>
+ <tr>
+   <td class="column-head"><b>Target hostname</b></td>
+   <td>juice-shop</td>
+ </tr>
+  <tr>
+   <td class="column-head"><b>Target Port</b></td>
+   <td>3000</td>
+ </tr>
+  <tr>
+   <td class="column-head"><b>HTTP Server</b></td>
+   <td></td>
+ </tr>
+ <tr>
+   <td class="column-head"><b>Site Link (Name)</b></td>
+   <td>
+     <a href="http://juice-shop:3000">http://juice-shop:3000</a>
+    </td>
+ </tr>
+ <tr>
+   <td class="column-head"><b>Site Link (IP)</b></td>
+   <td>
+     <a href="http://172.22.0.2:3000">http://172.22.0.2:3000</a>
+   </td>
+ </tr>
+ </table>
+</div>
+<p></p>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Server leaks inodes via ETags, header found with file /, fields: 0xW/1252f 0x19c1ee85e07 </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/">http://juice-shop:3000/</a><br>
+      <a href="http://172.22.0.2:3000/">http://172.22.0.2:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Uncommon header 'x-content-type-options' found, with contents: nosniff</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/">http://juice-shop:3000/</a><br>
+      <a href="http://172.22.0.2:3000/">http://172.22.0.2:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Uncommon header 'feature-policy' found, with contents: payment 'self'</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/">http://juice-shop:3000/</a><br>
+      <a href="http://172.22.0.2:3000/">http://172.22.0.2:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Uncommon header 'x-recruiting' found, with contents: /#/jobs</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/">http://juice-shop:3000/</a><br>
+      <a href="http://172.22.0.2:3000/">http://172.22.0.2:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Uncommon header 'x-frame-options' found, with contents: SAMEORIGIN</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/">http://juice-shop:3000/</a><br>
+      <a href="http://172.22.0.2:3000/">http://172.22.0.2:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Uncommon header 'access-control-allow-origin' found, with contents: *</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/">http://juice-shop:3000/</a><br>
+      <a href="http://172.22.0.2:3000/">http://172.22.0.2:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>//ftp/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>File/dir '/ftp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000//ftp/">http://juice-shop:3000//ftp/</a><br>
+      <a href="http://172.22.0.2:3000//ftp/">http://172.22.0.2:3000//ftp/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/robots.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>&quot;robots.txt&quot; contains 1 entry which should be manually viewed.</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/robots.txt">http://juice-shop:3000/robots.txt</a><br>
+      <a href="http://172.22.0.2:3000/robots.txt">http://172.22.0.2:3000/robots.txt</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>OPTIONS</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>Uncommon header 'access-control-allow-methods' found, with contents: GET,HEAD,PUT,PATCH,POST,DELETE</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000*">http://juice-shop:3000*</a><br>
+      <a href="http://172.22.0.2:3000*">http://172.22.0.2:3000*</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/0" title="More vuln information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/css</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>/css: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/css">http://juice-shop:3000/css</a><br>
+      <a href="http://172.22.0.2:3000/css">http://172.22.0.2:3000/css</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/3092" title="More vuln information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/ftp/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>/ftp/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/ftp/">http://juice-shop:3000/ftp/</a><br>
+      <a href="http://172.22.0.2:3000/ftp/">http://172.22.0.2:3000/ftp/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/3092" title="More vuln information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table  class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>URI</b></td>
+    <td>/public/</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>HTTP Method</b></td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Description</b></td>
+    <td>/public/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>Test Links</b></td>
+    <td>
+      <a href="http://juice-shop:3000/public/">http://juice-shop:3000/public/</a><br>
+      <a href="http://172.22.0.2:3000/public/">http://172.22.0.2:3000/public/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head" valign="top"><b>OSVDB Entries</b></td>
+    <td>
+       <a href="http://osvdb.org/3092" title="More vuln information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<div>
+<p></p>
+<table class="headerTable" width="300"><tr><td>Host Summary</td></tr></table>
+<table  class="dataTable" width="95%">
+ <tr>
+   <td class="column-head"><b>Start Time</b></td>
+   <td>2026-02-02 17:28:38</td>
+ </tr>
+  <tr>
+   <td class="column-head"><b>End Time</b></td>
+   <td>2026-02-02 17:30:48</td>
+ </tr>
+  <tr>
+   <td class="column-head"><b>Elapsed Time</b></td>
+   <td>130 seconds</td>
+ </tr>
+ <tr>
+   <td class="column-head"><b>Statistics</b></td>
+   <td>6544 items checked, 2 errors, 12 findings</td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable" width="300"><tr><td>Scan Summary</td></tr></table>
+<table class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>Software Details</b></td>
+    <td><a href="http://cirt.net/">Nikto 2.1.5</a></td>
+  <tr>
+    <td><b>CLI Options</b></td>
+    <td>-h http://juice-shop:3000 -o /work/reports/nikto/nikto-report.html -Format htm</td>
+  </tr>
+  <tr>
+    <td><b>Hosts Tested</b></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><b>Start Time</b></td>
+    <td>Mon Feb  2 17:28:38 2026</td>
+  </tr>
+  <tr>
+    <td><b>End Time</b></td>
+    <td>Mon Feb  2 17:30:48 2026</td>
+  </tr>
+  <tr>
+    <td><b>Elapsed Time</b></td>
+    <td>130 seconds</td>
+  </tr>
+</table>
+<p></p>
+<p class="copyright">&copy; 2008 CIRT, Inc.</p>
+
+<!-- (c) 2008 CIRT, Inc. -->
+
+</body>
+</html>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt; 
+   font-weight: normal; 
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt; 
+   font-weight: normal; 
+   color: white;
+   background: #000066;
+   border: thin solid black;
+  }
+  .column-head
+  {
+   width: 15em;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<p></p>
+<table class="headerTable" width="300"><tr><td>Scan Summary</td></tr></table>
+<table class="dataTable" width="95%">
+  <tr>
+    <td class="column-head" valign="top"><b>Software Details</b></td>
+    <td><a href="http://cirt.net/">Nikto 2.1.5</a></td>
+  <tr>
+    <td><b>CLI Options</b></td>
+    <td>-h http://localhost/:3000 -o /work/reports/nikto/nikto-report.html -Format html</td>
+  </tr>
+  <tr>
+    <td><b>Hosts Tested</b></td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><b>Start Time</b></td>
+    <td>Mon Feb  2 17:34:18 2026</td>
+  </tr>
+  <tr>
+    <td><b>End Time</b></td>
+    <td>Mon Feb  2 17:34:18 2026</td>
+  </tr>
+  <tr>
+    <td><b>Elapsed Time</b></td>
+    <td>0 seconds</td>
+  </tr>
+</table>
+<p></p>
+<p class="copyright">&copy; 2008 CIRT, Inc.</p>
+
+<!-- (c) 2008 CIRT, Inc. -->
+
+</body>
+</html>
+

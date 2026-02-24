@@ -1,0 +1,377 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "nodejsscan",
+          "rules": [
+            {
+              "id": "node_md5",
+              "name": "NodeMd5",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-327"
+                ]
+              },
+              "helpUri": "https://ajinabraham.github.io/nodejsscan/#node_md5"
+            },
+            {
+              "id": "pug_jade_template",
+              "name": "PugJadeTemplate",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-79"
+                ]
+              },
+              "helpUri": "https://ajinabraham.github.io/nodejsscan/#pug_jade_template"
+            }
+          ],
+          "version": "0.4.3",
+          "informationUri": "https://github.com/ajinabraham/njsscan",
+          "semanticVersion": "0.4.3"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "endTimeUtc": "2026-02-22T23:27:16Z"
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "MD5 is a a weak hash which is known to have collision. Use a strong hashing function."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "      const md5 = crypto.createHash('md5')"
+                  },
+                  "endColumn": 43,
+                  "endLine": 77,
+                  "startColumn": 19,
+                  "startLine": 77
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/Gruntfile.js"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A9: Using Components with Known Vulnerabilities",
+            "cwe": "CWE-327: Use of a Broken or Risky Cryptographic Algorithm"
+          },
+          "ruleId": "node_md5",
+          "ruleIndex": 0
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 1515,
+                  "endLine": 45,
+                  "startColumn": 1509,
+                  "startLine": 45
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/codeql-db/src/work/reports/njsscan/njsscan-report.html"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 1914,
+                  "endLine": 66,
+                  "startColumn": 1908,
+                  "startLine": 66
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 2186,
+                  "endLine": 78,
+                  "startColumn": 2180,
+                  "startLine": 78
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 2458,
+                  "endLine": 90,
+                  "startColumn": 2452,
+                  "startLine": 90
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 2730,
+                  "endLine": 102,
+                  "startColumn": 2724,
+                  "startLine": 102
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 3008,
+                  "endLine": 114,
+                  "startColumn": 3002,
+                  "startLine": 114
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 1515,
+                  "endLine": 45,
+                  "startColumn": 1509,
+                  "startLine": 45
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan/njsscan-report.html"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 1895,
+                  "endLine": 66,
+                  "startColumn": 1889,
+                  "startLine": 66
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan/njsscan-report.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 2173,
+                  "endLine": 78,
+                  "startColumn": 2167,
+                  "startLine": 78
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/njsscan/njsscan-report.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "text": "The Pug.js/Jade.js template has an unescaped variable. Untrusted user input passed to this variable results in Cross Site Scripting (XSS)."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "!{...}"
+                  },
+                  "endColumn": 96532,
+                  "endLine": 2080,
+                  "startColumn": 96526,
+                  "startLine": 2080
+                },
+                "artifactLocation": {
+                  "uri": "file:///app/reports/semgrep/semgrep-report.json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "owasp-web": "A1: Injection",
+            "cwe": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+          },
+          "ruleId": "pug_jade_template",
+          "ruleIndex": 1
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}
