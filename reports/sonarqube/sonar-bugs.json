@@ -1,0 +1,4519 @@
+{
+    "total": 92,
+    "p": 1,
+    "ps": 500,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 92
+    },
+    "effortTotal": 270,
+    "issues": [
+        {
+            "key": "04d45c8d-08fc-4bde-9c5d-a1dcb99dc330",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 3,
+                "endLine": 3,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "1906352e-458e-4225-98c7-50fed049c23b",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 350,
+                "endLine": 350,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "1c76703c-4997-484b-835e-594f19a8fa6d",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 269,
+                "endLine": 269,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "2c2e95ce-d7ed-4bbc-bcc3-65c1b4cc530f",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 377,
+                "endLine": 377,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "34438570-0bff-441f-aee5-2a558758daac",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "8a0f712f951d2c0a11eb138a2f77f2b1",
+            "textRange": {
+                "startLine": 46,
+                "endLine": 46,
+                "startOffset": 16,
+                "endOffset": 55
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "3716909a-db4c-4373-9035-313507e49560",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 134,
+                "endLine": 134,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "4828380b-0c87-4c5c-b339-c078530ef2bb",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 80,
+                "endLine": 80,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "5220f386-48bd-4b1e-9ad5-b5ec5b0941c2",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 323,
+                "endLine": 323,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "5e41e2d4-53d8-46e0-b986-4d61d2db58db",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 509,
+                "endLine": 509,
+                "startOffset": 0,
+                "endOffset": 37
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "5ed7b77a-c1ac-498b-9073-91bbaef3248a",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 188,
+                "endLine": 188,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "64f54fe2-6aa9-4f75-8785-02bfe0fa2aab",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 430,
+                "endLine": 430,
+                "startOffset": 0,
+                "endOffset": 37
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "94c75291-096f-4f3d-b906-177d305f0f45",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 161,
+                "endLine": 161,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "960a17da-9c6d-449d-afc3-92eaaa030939",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "2e5182f663e224a4a738f77245fa24c3",
+            "textRange": {
+                "startLine": 406,
+                "endLine": 406,
+                "startOffset": 0,
+                "endOffset": 39
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "99308b82-ee8c-46be-9b03-5c38a2617315",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "4c3c74a21e946cb69fa7443a1d350a97",
+            "textRange": {
+                "startLine": 47,
+                "endLine": 47,
+                "startOffset": 0,
+                "endOffset": 37
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "b133e5d7-4c9b-4029-ae29-c891fbaec18a",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 407,
+                "endLine": 407,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "b9b93805-4f0d-4865-befb-650610d649bc",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 242,
+                "endLine": 242,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c20facab-08ec-4e67-a62a-fa1575d7834e",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 296,
+                "endLine": 296,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c407864c-7e62-4296-a584-64849fa8f6d3",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "193e33004507af524cdf2456f2a4cf3f",
+            "textRange": {
+                "startLine": 429,
+                "endLine": 429,
+                "startOffset": 0,
+                "endOffset": 39
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c76cdd7a-6cbb-4491-b82e-c34a17cb461d",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 465,
+                "endLine": 465,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "d4610c0c-fd81-4c09-8baf-237507cc268c",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 107,
+                "endLine": 107,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "fae64e9d-df13-4e94-b78e-b663f6431a7e",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "193e33004507af524cdf2456f2a4cf3f",
+            "textRange": {
+                "startLine": 508,
+                "endLine": 508,
+                "startOffset": 0,
+                "endOffset": 39
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "fb157d56-a78c-428e-b277-16b11d8f1153",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 215,
+                "endLine": 215,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "2bc2b59e-f82b-40e7-84b8-941e4c761cc5",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 54,
+                "endLine": 54,
+                "startOffset": 0,
+                "endOffset": 7
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "839c81f6-7b44-47b0-8c09-8b9695965ff7",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 7
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "9e9ec1b2-ac6b-4872-9441-59ebbe327178",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 28,
+                "endLine": 28,
+                "startOffset": 16,
+                "endOffset": 23
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "db2054db-f38d-44f4-b182-e5fcac70fbd7",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 79,
+                "endLine": 79,
+                "startOffset": 16,
+                "endOffset": 23
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "49d38be5-f9a0-4a7d-9e37-6d790dd6a6f2",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1634.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "ef6f4aff-cfd7-422e-b097-9e25f74622a1",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1638.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "47f22d4b-4f08-4529-ae8f-9a36d8753476",
+            "rule": "Web:S7930",
+            "severity": "CRITICAL",
+            "component": "devsecops_lab:codeql-db/src/work/reports/zap/zap-report.html",
+            "project": "devsecops_lab",
+            "hash": "0dc03fa2b0eb80313e47e13c2e769965",
+            "textRange": {
+                "startLine": 2944,
+                "endLine": 2945,
+                "startOffset": 36,
+                "endOffset": 17
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Duplicate id \"10049\" found. First occurrence was on line 2741.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "web",
+                "html"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "52f2c7c4-0259-4f3e-ac6d-6a3607f2db1b",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:codeql-db/src/work/reports/zap/zap-report.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "e39bd639-bc5b-4e6e-83b1-3dfc173c037f",
+            "rule": "Web:S7930",
+            "severity": "CRITICAL",
+            "component": "devsecops_lab:codeql-db/src/work/reports/zap/zap-report.html",
+            "project": "devsecops_lab",
+            "hash": "0dc03fa2b0eb80313e47e13c2e769965",
+            "textRange": {
+                "startLine": 3090,
+                "endLine": 3091,
+                "startOffset": 36,
+                "endOffset": 17
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Duplicate id \"10049\" found. First occurrence was on line 2741.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "accessibility",
+                "web",
+                "html"
+            ],
+            "creationDate": "2026-02-23T01:04:53+0000",
+            "updateDate": "2026-02-23T22:51:15+0000",
+            "closeDate": "2026-02-23T22:51:15+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "02da18a0-d05d-4c1f-a11b-ce8746347dd3",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 3,
+                "endLine": 3,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "049e29c7-27c7-4530-b9ad-e01bb1164424",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 407,
+                "endLine": 407,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "1462dcec-0aa4-4eea-a235-1d3c4f20acdd",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 134,
+                "endLine": 134,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "14750ec2-5c02-41a9-8ef3-8e286273d815",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 242,
+                "endLine": 242,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "1e2828be-d65a-4754-884e-8d80ab560f55",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 465,
+                "endLine": 465,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "26a77786-5ccb-44a0-9319-755551a4f445",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 161,
+                "endLine": 161,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "42d7a728-9ee5-42a8-9cc9-fc005c73c439",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 188,
+                "endLine": 188,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "46451ab1-8b00-4a66-89f2-9d61376595b5",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "2e5182f663e224a4a738f77245fa24c3",
+            "textRange": {
+                "startLine": 406,
+                "endLine": 406,
+                "startOffset": 0,
+                "endOffset": 39
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "4c1537a0-cb80-4285-a966-961df0f2067d",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "8a0f712f951d2c0a11eb138a2f77f2b1",
+            "textRange": {
+                "startLine": 46,
+                "endLine": 46,
+                "startOffset": 16,
+                "endOffset": 55
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "5f190b08-a9db-4273-b486-3fc4e2772547",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 215,
+                "endLine": 215,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "67815524-bbe7-4438-83db-9edb476e5cb6",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 296,
+                "endLine": 296,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "82fc3ef2-30e1-45d2-95a3-f0bdfa6a9c89",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "193e33004507af524cdf2456f2a4cf3f",
+            "textRange": {
+                "startLine": 429,
+                "endLine": 429,
+                "startOffset": 0,
+                "endOffset": 39
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "89ce10a0-129a-4ad3-85ab-3cbd75c49eed",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 430,
+                "endLine": 430,
+                "startOffset": 0,
+                "endOffset": 37
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "9ff84f62-ccfe-4ff4-b273-82553513a160",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 107,
+                "endLine": 107,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "ad94778a-d4e9-47af-82a8-18606134fe2d",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 323,
+                "endLine": 323,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "b156697b-c574-401b-9ea9-1c5cfc10dbf0",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 80,
+                "endLine": 80,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "b7ee8f49-e4cf-4897-846c-ed4c3a8ca97c",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 377,
+                "endLine": 377,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "b92ef63c-7560-4cb9-8de6-2c782265ee91",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "4c3c74a21e946cb69fa7443a1d350a97",
+            "textRange": {
+                "startLine": 47,
+                "endLine": 47,
+                "startOffset": 0,
+                "endOffset": 37
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "cdec4ec8-cbb2-4eb2-9647-ec653b82bda9",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 350,
+                "endLine": 350,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "d747ec03-d145-4b1b-a1b0-c53a758e1683",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 509,
+                "endLine": 509,
+                "startOffset": 0,
+                "endOffset": 37
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "ec0aca59-682d-4799-b390-607afbe0168b",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "193e33004507af524cdf2456f2a4cf3f",
+            "textRange": {
+                "startLine": 508,
+                "endLine": 508,
+                "startOffset": 0,
+                "endOffset": 39
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "f45c2804-b526-4ad3-ad9d-25a7cbcaf755",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/nikto/nikto-report.html",
+            "project": "devsecops_lab",
+            "hash": "a30c360bce791abd7efb6fd574ccb828",
+            "textRange": {
+                "startLine": 269,
+                "endLine": 269,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "0b64f5ef-3a80-44f8-9137-07d8330e8986",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 54,
+                "endLine": 54,
+                "startOffset": 0,
+                "endOffset": 7
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "18a999cb-a949-45aa-9b5d-3b97621d1f1d",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 79,
+                "endLine": 79,
+                "startOffset": 16,
+                "endOffset": 23
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "58380262-9924-496e-8717-94bb419e292d",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 7
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "5b7999e3-b0a9-4bf4-ba56-2d529d5f59ca",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/njsscan/njsscan-report.html",
+            "project": "devsecops_lab",
+            "hash": "fdcbb7ca6d7202e68ff5e231215d38a9",
+            "textRange": {
+                "startLine": 28,
+                "endLine": 28,
+                "startOffset": 16,
+                "endOffset": 23
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "3094d923-304b-48a3-a49d-fb9b2a8a24cc",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/wapiti/localhost_3000_02022026_1634.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "87146de0-df25-46c1-8baa-22f80cf9d8e8",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/wapiti/localhost_3000_02022026_1638.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "2262477f-2e9a-4a48-bfbc-399b554f5a5e",
+            "rule": "Web:S7930",
+            "severity": "CRITICAL",
+            "component": "devsecops_lab:reports/zap/zap-report.html",
+            "project": "devsecops_lab",
+            "hash": "0dc03fa2b0eb80313e47e13c2e769965",
+            "textRange": {
+                "startLine": 2944,
+                "endLine": 2945,
+                "startOffset": 36,
+                "endOffset": 17
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Duplicate id \"10049\" found. First occurrence was on line 2741.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "web",
+                "html"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "33ff9749-02a1-45eb-8f7c-72b44016dc95",
+            "rule": "Web:S7930",
+            "severity": "CRITICAL",
+            "component": "devsecops_lab:reports/zap/zap-report.html",
+            "project": "devsecops_lab",
+            "hash": "0dc03fa2b0eb80313e47e13c2e769965",
+            "textRange": {
+                "startLine": 3090,
+                "endLine": 3091,
+                "startOffset": 36,
+                "endOffset": 17
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Duplicate id \"10049\" found. First occurrence was on line 2741.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "web",
+                "html"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "5eeb3c04-eb92-43dc-88b0-88fd005fe29b",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:reports/zap/zap-report.html",
+            "project": "devsecops_lab",
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "resolution": "FIXED",
+            "status": "CLOSED",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "oussema.ghorbel.jci@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2026-02-22T21:37:49+0000",
+            "updateDate": "2026-02-23T21:23:12+0000",
+            "closeDate": "2026-02-23T21:23:12+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "FIXED",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "25ccdc4b-cf1b-4cde-925d-13da566793e5",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/code-area/code-area.component.html",
+            "project": "devsecops_lab",
+            "line": 2,
+            "hash": "995fa34f847fc0f3061770e73913c067",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 81,
+                "endOffset": 180
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cdiv\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bmnicolae@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-08-15T05:01:51+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "f5961d16-6c67-49fe-94d2-4f331b078a4d",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/sidenav/sidenav.component.html",
+            "project": "devsecops_lab",
+            "line": 54,
+            "hash": "aeb5bc546e13e3b24b86f74e9335f7dc",
+            "textRange": {
+                "startLine": 54,
+                "endLine": 55,
+                "startOffset": 6,
+                "endOffset": 50
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-list-item\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bmnicolae@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-08-15T05:01:51+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "71734526-d7d0-4011-8e03-3c8922195e07",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/sidenav/sidenav.component.html",
+            "project": "devsecops_lab",
+            "line": 129,
+            "hash": "642733a8ae8014aa5a934acf58c5f145",
+            "textRange": {
+                "startLine": 129,
+                "endLine": 130,
+                "startOffset": 6,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-list-item\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bmnicolae@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-08-15T05:01:51+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "bd27d20a-4ec5-4ba9-b71c-8653cfc95821",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/address/address.component.html",
+            "project": "devsecops_lab",
+            "line": 19,
+            "hash": "6bf23311a7862dbe51e4c35650fbd153",
+            "textRange": {
+                "startLine": 19,
+                "endLine": 22,
+                "startOffset": 12,
+                "endOffset": 63
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-radio-button\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "allanlogz@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-08-08T22:56:03+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c5131c62-7a62-4083-9de4-bec2d5bb9ef3",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/address/address.component.html",
+            "project": "devsecops_lab",
+            "line": 61,
+            "hash": "10f4a004e50a9bda76e3bca884f16eab",
+            "textRange": {
+                "startLine": 61,
+                "endLine": 63,
+                "startOffset": 8,
+                "endOffset": 77
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-row\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "allanlogz@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-08-08T22:56:03+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c2fc5a72-f0bf-4867-abb5-95b63ebe35a5",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/search-result/search-result.component.html",
+            "project": "devsecops_lab",
+            "line": 38,
+            "hash": "b9b09572bf22906a50b8b1a876354df1",
+            "textRange": {
+                "startLine": 38,
+                "endLine": 39,
+                "startOffset": 18,
+                "endOffset": 87
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cdiv\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "allanlogz@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-08-08T22:56:03+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "cf3288ef-0409-4929-8575-5d364c090ee4",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/navbar/navbar.component.html",
+            "project": "devsecops_lab",
+            "line": 134,
+            "hash": "6bf23311a7862dbe51e4c35650fbd153",
+            "textRange": {
+                "startLine": 134,
+                "endLine": 141,
+                "startOffset": 8,
+                "endOffset": 11
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-radio-button\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "jannik.hollenbach@owasp.org",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-04-02T19:41:33+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "54a66251-9d21-4d7d-baf3-a010dd144761",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/navbar/navbar.component.html",
+            "project": "devsecops_lab",
+            "line": 126,
+            "hash": "8bf5f5ae0b3eb8806a3815a0b8b32895",
+            "textRange": {
+                "startLine": 126,
+                "endLine": 126,
+                "startOffset": 6,
+                "endOffset": 80
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cdiv\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "cs23b1059.iiitdm.ac.in",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-04-02T19:22:43+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "4da3505c-3bcf-431e-bb20-fac6416b0ae0",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/verifySpec.ts",
+            "project": "devsecops_lab",
+            "line": 216,
+            "hash": "9d541924d67ce5eb056da4e62dbcca94",
+            "textRange": {
+                "startLine": 216,
+                "endLine": 216,
+                "startOffset": 48,
+                "endOffset": 52
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "jannik.hollenbach@owasp.org",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2025-03-23T11:24:21+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "55008581-abdc-4396-8d12-9d8c84ae1755",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/administration/administration.component.html",
+            "project": "devsecops_lab",
+            "line": 59,
+            "hash": "347fb1b2558db867a6db1295059687df",
+            "textRange": {
+                "startLine": 59,
+                "endLine": 59,
+                "startOffset": 12,
+                "endOffset": 114
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-cell\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "jannik.hollenbach@owasp.org",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2025-02-23T19:20:11+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "f6002014-929e-45af-9095-7f7a2b7c88b0",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/mat-search-bar/mat-search-bar.component.html",
+            "project": "devsecops_lab",
+            "line": 9,
+            "hash": "ca272b240d641ff23088ce44ad504dfc",
+            "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 4,
+                "endOffset": 72
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-icon\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "kraus.martina.m@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2024-02-19T14:27:04+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "e1389bc9-8301-4a9c-a14e-fee6b795953f",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/mat-search-bar/mat-search-bar.component.html",
+            "project": "devsecops_lab",
+            "line": 12,
+            "hash": "ebe948a0d1708669b9fb9ca777d5c296",
+            "textRange": {
+                "startLine": 12,
+                "endLine": 12,
+                "startOffset": 4,
+                "endOffset": 72
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-icon\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "kraus.martina.m@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2024-02-19T14:27:04+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "14d079f7-9e29-4538-91a1-5836dc65d604",
+            "rule": "css:S4656",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:frontend/src/app/score-board/components/challenge-card/challenge-card.component.scss",
+            "project": "devsecops_lab",
+            "line": 142,
+            "hash": "8f9cae35b6843b69f6a86b8b0667e9eb",
+            "textRange": {
+                "startLine": 142,
+                "endLine": 142,
+                "startOffset": 0,
+                "endOffset": 38
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Unexpected duplicate \"color\"",
+            "effort": "1min",
+            "debt": "1min",
+            "author": "jannik@hollenbach.de",
+            "tags": [],
+            "creationDate": "2023-08-28T17:30:46+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "022b6a04-f7c5-426a-8a6d-8855531e8cdc",
+            "rule": "typescript:S1848",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/blueprintSpec.ts",
+            "project": "devsecops_lab",
+            "line": 20,
+            "hash": "c2b89df2161e71ff2c51c15e8340a360",
+            "textRange": {
+                "startLine": 20,
+                "endLine": 20,
+                "startOffset": 4,
+                "endOffset": 17
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Either remove this useless object instantiation of \"ExifImage\" or use it.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "jannik@hollenbach.de",
+            "tags": [],
+            "creationDate": "2023-05-06T16:23:06+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c96b78e6-5fba-4c53-a317-a198d2869eeb",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/delivery-method/delivery-method.component.html",
+            "project": "devsecops_lab",
+            "line": 28,
+            "hash": "5d2201162dea29f4493303b3a4c90ac9",
+            "textRange": {
+                "startLine": 28,
+                "endLine": 29,
+                "startOffset": 12,
+                "endOffset": 61
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-radio-button\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "marc.ruettler@live.de",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2020-04-07T21:06:35+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "2a4e7795-8846-4489-bd74-efab4ef36bba",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/delivery-method/delivery-method.component.html",
+            "project": "devsecops_lab",
+            "line": 45,
+            "hash": "1de8a6ac6b65ba7ee2dffd5716021718",
+            "textRange": {
+                "startLine": 45,
+                "endLine": 46,
+                "startOffset": 8,
+                "endOffset": 66
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-row\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "marc.ruettler@live.de",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2020-04-07T21:06:35+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "6013294a-b312-4702-82bb-508a403b2b4d",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:frontend/src/app/order-completion/order-completion.component.html",
+            "project": "devsecops_lab",
+            "line": 76,
+            "hash": "eda04a98388095939f2a4f11ff34ec59",
+            "textRange": {
+                "startLine": 76,
+                "endLine": 76,
+                "startOffset": 12,
+                "endOffset": 39
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "agrawal.arpit14@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2019-06-28T18:08:56+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "be43a483-4ed3-4d63-9104-834035962625",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/search-result/search-result.component.html",
+            "project": "devsecops_lab",
+            "line": 40,
+            "hash": "52b61534d8fba9a31689f0fc6d0453e6",
+            "textRange": {
+                "startLine": 40,
+                "endLine": 41,
+                "startOffset": 20,
+                "endOffset": 73
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cimg\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "marc.ruettler@live.de",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2019-06-23T20:35:49+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "98896308-7e53-4d65-86b2-08c0ac0af152",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/payment-method/payment-method.component.html",
+            "project": "devsecops_lab",
+            "line": 14,
+            "hash": "7132512b71e0831fe62a229a72ff7178",
+            "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 12,
+                "endOffset": 74
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cmat-radio-button\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "agrawal.arpit14@gmail.com",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2019-06-21T07:31:39+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c05dacd8-f660-4818-9fbc-3a4ce1f5cc79",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:frontend/src/app/order-summary/order-summary.component.html",
+            "project": "devsecops_lab",
+            "line": 50,
+            "hash": "5307cecec301a3574532def5f13596ad",
+            "textRange": {
+                "startLine": 50,
+                "endLine": 50,
+                "startOffset": 10,
+                "endOffset": 35
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "agrawal.arpit14@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2019-06-19T08:13:21+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c8233ab9-86a8-4863-90cf-b418a1a5b2ab",
+            "rule": "Web:S5256",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:frontend/src/app/order-completion/order-completion.component.html",
+            "project": "devsecops_lab",
+            "line": 56,
+            "hash": "5307cecec301a3574532def5f13596ad",
+            "textRange": {
+                "startLine": 56,
+                "endLine": 56,
+                "startOffset": 12,
+                "endOffset": 37
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add \"\u003cth\u003e\" headers to this \"\u003ctable\u003e\".",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "agrawal.arpit14@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2019-06-17T10:58:06+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "982293a9-62ce-4acd-9227-4a86768269ca",
+            "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+            "severity": "MINOR",
+            "component": "devsecops_lab:frontend/src/app/product-details/product-details.component.html",
+            "project": "devsecops_lab",
+            "line": 51,
+            "hash": "d68ce1616baf5175d825ca1154939ce7",
+            "textRange": {
+                "startLine": 51,
+                "endLine": 54,
+                "startOffset": 16,
+                "endOffset": 45
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add a \u0027onKeyPress|onKeyDown|onKeyUp\u0027 attribute to this \u003cdiv\u003e tag.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "mr144@hdm-stuttgart.de",
+            "tags": [
+                "accessibility"
+            ],
+            "creationDate": "2019-06-08T00:03:33+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "8c992e71-0282-4e67-8462-cfcec9fe47fe",
+            "rule": "Web:S5254",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:frontend/src/assets/private/threejs-demo.html",
+            "project": "devsecops_lab",
+            "line": 2,
+            "hash": "166248a6129a1e4370d20adc2d4c23f3",
+            "textRange": {
+                "startLine": 2,
+                "endLine": 2,
+                "startOffset": 0,
+                "endOffset": 6
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+            "effort": "2min",
+            "debt": "2min",
+            "author": "aashishsingh2907@gmail.com",
+            "tags": [
+                "accessibility",
+                "wcag2-a"
+            ],
+            "creationDate": "2018-05-24T11:37:25+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c965943b-2db9-4bc2-a311-7287a9cc717b",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/b2bOrderSpec.ts",
+            "project": "devsecops_lab",
+            "line": 26,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 26,
+                "endLine": 26,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "f5db4af2-f166-42f3-8cb9-d1ab688debea",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/easterEggSpec.ts",
+            "project": "devsecops_lab",
+            "line": 24,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 24,
+                "endLine": 24,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "c0889564-a700-499e-acf6-8b77b6075d5f",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/fileServerSpec.ts",
+            "project": "devsecops_lab",
+            "line": 26,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 26,
+                "endLine": 26,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "db9a50de-3f84-4516-9182-ec247499c1e8",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/fileUploadSpec.ts",
+            "project": "devsecops_lab",
+            "line": 22,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 22,
+                "endLine": 22,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "62e6edfe-7e8c-4b2d-87ce-b890de78dddb",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/premiumRewardSpec.ts",
+            "project": "devsecops_lab",
+            "line": 25,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 25,
+                "endLine": 25,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "659ffabc-fa1b-4a5e-982a-d17164b2fae8",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/redirectSpec.ts",
+            "project": "devsecops_lab",
+            "line": 28,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 28,
+                "endLine": 28,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        },
+        {
+            "key": "3ca15e9e-20f4-4339-94dd-eddbdf589a03",
+            "rule": "typescript:S7739",
+            "severity": "MAJOR",
+            "component": "devsecops_lab:test/server/verifySpec.ts",
+            "project": "devsecops_lab",
+            "line": 33,
+            "hash": "0274ebba7da48ef191b16d4e775846d2",
+            "textRange": {
+                "startLine": 33,
+                "endLine": 33,
+                "startOffset": 6,
+                "endOffset": 10
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Do not add `then` to an object.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "bjoern.kimminich@gmx.de",
+            "tags": [
+                "async",
+                "thenable",
+                "promise"
+            ],
+            "creationDate": "2018-02-07T04:40:28+0000",
+            "updateDate": "2026-02-23T01:04:53+0000",
+            "type": "BUG",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "HIGH"
+                },
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        }
+    ],
+    "components": [
+        {
+            "key": "devsecops_lab:test/server/easterEggSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "easterEggSpec.ts",
+            "longName": "test/server/easterEggSpec.ts",
+            "path": "test/server/easterEggSpec.ts"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/search-result/search-result.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "search-result.component.html",
+            "longName": "frontend/src/app/search-result/search-result.component.html",
+            "path": "frontend/src/app/search-result/search-result.component.html"
+        },
+        {
+            "key": "devsecops_lab:test/server/fileUploadSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "fileUploadSpec.ts",
+            "longName": "test/server/fileUploadSpec.ts",
+            "path": "test/server/fileUploadSpec.ts"
+        },
+        {
+            "key": "devsecops_lab:reports/zap/zap-report.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "zap-report.html",
+            "longName": "reports/zap/zap-report.html",
+            "path": "reports/zap/zap-report.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/sidenav/sidenav.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "sidenav.component.html",
+            "longName": "frontend/src/app/sidenav/sidenav.component.html",
+            "path": "frontend/src/app/sidenav/sidenav.component.html"
+        },
+        {
+            "key": "devsecops_lab:codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1638.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "localhost_3000_02022026_1638.html",
+            "longName": "codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1638.html",
+            "path": "codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1638.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/assets/private/threejs-demo.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "threejs-demo.html",
+            "longName": "frontend/src/assets/private/threejs-demo.html",
+            "path": "frontend/src/assets/private/threejs-demo.html"
+        },
+        {
+            "key": "devsecops_lab:codeql-db/src/work/reports/njsscan/njsscan-report.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "njsscan-report.html",
+            "longName": "codeql-db/src/work/reports/njsscan/njsscan-report.html",
+            "path": "codeql-db/src/work/reports/njsscan/njsscan-report.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/score-board/components/challenge-card/challenge-card.component.scss",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "challenge-card.component.scss",
+            "longName": "frontend/src/app/score-board/components/challenge-card/challenge-card.component.scss",
+            "path": "frontend/src/app/score-board/components/challenge-card/challenge-card.component.scss"
+        },
+        {
+            "key": "devsecops_lab:test/server/premiumRewardSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "premiumRewardSpec.ts",
+            "longName": "test/server/premiumRewardSpec.ts",
+            "path": "test/server/premiumRewardSpec.ts"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/delivery-method/delivery-method.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "delivery-method.component.html",
+            "longName": "frontend/src/app/delivery-method/delivery-method.component.html",
+            "path": "frontend/src/app/delivery-method/delivery-method.component.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/code-area/code-area.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "code-area.component.html",
+            "longName": "frontend/src/app/code-area/code-area.component.html",
+            "path": "frontend/src/app/code-area/code-area.component.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/administration/administration.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "administration.component.html",
+            "longName": "frontend/src/app/administration/administration.component.html",
+            "path": "frontend/src/app/administration/administration.component.html"
+        },
+        {
+            "key": "devsecops_lab:test/server/verifySpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "verifySpec.ts",
+            "longName": "test/server/verifySpec.ts",
+            "path": "test/server/verifySpec.ts"
+        },
+        {
+            "key": "devsecops_lab:reports/njsscan/njsscan-report.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "njsscan-report.html",
+            "longName": "reports/njsscan/njsscan-report.html",
+            "path": "reports/njsscan/njsscan-report.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/address/address.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "address.component.html",
+            "longName": "frontend/src/app/address/address.component.html",
+            "path": "frontend/src/app/address/address.component.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/order-summary/order-summary.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "order-summary.component.html",
+            "longName": "frontend/src/app/order-summary/order-summary.component.html",
+            "path": "frontend/src/app/order-summary/order-summary.component.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/product-details/product-details.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "product-details.component.html",
+            "longName": "frontend/src/app/product-details/product-details.component.html",
+            "path": "frontend/src/app/product-details/product-details.component.html"
+        },
+        {
+            "key": "devsecops_lab:reports/nikto/nikto-report.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "nikto-report.html",
+            "longName": "reports/nikto/nikto-report.html",
+            "path": "reports/nikto/nikto-report.html"
+        },
+        {
+            "key": "devsecops_lab:reports/wapiti/localhost_3000_02022026_1634.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "localhost_3000_02022026_1634.html",
+            "longName": "reports/wapiti/localhost_3000_02022026_1634.html",
+            "path": "reports/wapiti/localhost_3000_02022026_1634.html"
+        },
+        {
+            "key": "devsecops_lab:codeql-db/src/work/reports/zap/zap-report.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "zap-report.html",
+            "longName": "codeql-db/src/work/reports/zap/zap-report.html",
+            "path": "codeql-db/src/work/reports/zap/zap-report.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/navbar/navbar.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "navbar.component.html",
+            "longName": "frontend/src/app/navbar/navbar.component.html",
+            "path": "frontend/src/app/navbar/navbar.component.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/order-completion/order-completion.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "order-completion.component.html",
+            "longName": "frontend/src/app/order-completion/order-completion.component.html",
+            "path": "frontend/src/app/order-completion/order-completion.component.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/mat-search-bar/mat-search-bar.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "mat-search-bar.component.html",
+            "longName": "frontend/src/app/mat-search-bar/mat-search-bar.component.html",
+            "path": "frontend/src/app/mat-search-bar/mat-search-bar.component.html"
+        },
+        {
+            "key": "devsecops_lab:test/server/blueprintSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "blueprintSpec.ts",
+            "longName": "test/server/blueprintSpec.ts",
+            "path": "test/server/blueprintSpec.ts"
+        },
+        {
+            "key": "devsecops_lab:codeql-db/src/work/reports/nikto/nikto-report.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "nikto-report.html",
+            "longName": "codeql-db/src/work/reports/nikto/nikto-report.html",
+            "path": "codeql-db/src/work/reports/nikto/nikto-report.html"
+        },
+        {
+            "key": "devsecops_lab:codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1634.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "localhost_3000_02022026_1634.html",
+            "longName": "codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1634.html",
+            "path": "codeql-db/src/work/reports/wapiti/localhost_3000_02022026_1634.html"
+        },
+        {
+            "key": "devsecops_lab:test/server/b2bOrderSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "b2bOrderSpec.ts",
+            "longName": "test/server/b2bOrderSpec.ts",
+            "path": "test/server/b2bOrderSpec.ts"
+        },
+        {
+            "key": "devsecops_lab",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "DevSecOps Lab",
+            "longName": "DevSecOps Lab"
+        },
+        {
+            "key": "devsecops_lab:reports/wapiti/localhost_3000_02022026_1638.html",
+            "enabled": false,
+            "qualifier": "FIL",
+            "name": "localhost_3000_02022026_1638.html",
+            "longName": "reports/wapiti/localhost_3000_02022026_1638.html",
+            "path": "reports/wapiti/localhost_3000_02022026_1638.html"
+        },
+        {
+            "key": "devsecops_lab:frontend/src/app/payment-method/payment-method.component.html",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "payment-method.component.html",
+            "longName": "frontend/src/app/payment-method/payment-method.component.html",
+            "path": "frontend/src/app/payment-method/payment-method.component.html"
+        },
+        {
+            "key": "devsecops_lab:test/server/redirectSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "redirectSpec.ts",
+            "longName": "test/server/redirectSpec.ts",
+            "path": "test/server/redirectSpec.ts"
+        },
+        {
+            "key": "devsecops_lab:test/server/fileServerSpec.ts",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "fileServerSpec.ts",
+            "longName": "test/server/fileServerSpec.ts",
+            "path": "test/server/fileServerSpec.ts"
+        }
+    ],
+    "facets": []
+}

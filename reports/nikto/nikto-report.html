@@ -1,0 +1,3950 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt; 
+   font-weight: normal; 
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+   width: 95%;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt; 
+   font-weight: normal; 
+   color: white;
+   background: #000066;
+   border: thin solid black;
+   width: 300px;
+  }
+  .column-head
+  {
+   width: 15em;
+   font-weight:bold;
+   vertical-align: top;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<div>
+<a name="0"></a>
+<table class="headerTable">
+ <tr>
+   <td>host.docker.internal / 192.168.65.254 port 3000</td>
+ </tr>
+</table>
+<table class="dataTable">
+ <tr>
+   <td class="column-head">Target IP</td>
+   <td>192.168.65.254</td>
+ </tr>
+ <tr>
+   <td class="column-head">Target hostname</td>
+   <td>host.docker.internal</td>
+ </tr>
+  <tr>
+   <td class="column-head">Target Port</td>
+   <td>3000</td>
+ </tr>
+  <tr>
+   <td class="column-head">HTTP Server</td>
+   <td></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (Name)</td>
+   <td><a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (IP)</td>
+   <td><a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a></td>
+ </tr>
+ </table>
+</div>
+<p></p>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Retrieved access-control-allow-origin header: *.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/:X-Frame-Options header is deprecated and was replaced with the Content-Security-Policy HTTP header with the frame-ancestors directive instead.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Uncommon header(s) 'x-recruiting' found, with contents: /#/jobs.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/ftp/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/robots.txt: Entry '/ftp/' is returned a non-forbidden or redirect HTTP code (200).</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/ftp/">http://host.docker.internal:3000/ftp/</a><br>
+      <a href="http://192.168.65.254:3000/ftp/">http://192.168.65.254:3000/ftp/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://portswigger.net/kb/issues/00600600_robots-txt-file'>https://portswigger.net/kb/issues/00600600_robots-txt-file</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/robots.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/robots.txt: contains 1 entry which should be manually viewed.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/robots.txt">http://host.docker.internal:3000/robots.txt</a><br>
+      <a href="http://192.168.65.254:3000/robots.txt">http://192.168.65.254:3000/robots.txt</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt'>https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.tar.bz2">http://host.docker.internal:3000/site.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/site.tar.bz2">http://192.168.65.254:3000/site.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.alz">http://host.docker.internal:3000/host.alz</a><br>
+      <a href="http://192.168.65.254:3000/host.alz">http://192.168.65.254:3000/host.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.tar.lzma">http://host.docker.internal:3000/database.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/database.tar.lzma">http://192.168.65.254:3000/database.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.egg">http://host.docker.internal:3000/internal.egg</a><br>
+      <a href="http://192.168.65.254:3000/internal.egg">http://192.168.65.254:3000/internal.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.tar.bz2">http://host.docker.internal:3000/host.docker.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.tar.bz2">http://192.168.65.254:3000/host.docker.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.cer">http://host.docker.internal:3000/site.cer</a><br>
+      <a href="http://192.168.65.254:3000/site.cer">http://192.168.65.254:3000/site.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.tar.bz2">http://host.docker.internal:3000/dump.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/dump.tar.bz2">http://192.168.65.254:3000/dump.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.alz">http://host.docker.internal:3000/backup.alz</a><br>
+      <a href="http://192.168.65.254:3000/backup.alz">http://192.168.65.254:3000/backup.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.cer">http://host.docker.internal:3000/dump.cer</a><br>
+      <a href="http://192.168.65.254:3000/dump.cer">http://192.168.65.254:3000/dump.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.egg">http://host.docker.internal:3000/host.docker.egg</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.egg">http://192.168.65.254:3000/host.docker.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.war">http://host.docker.internal:3000/database.war</a><br>
+      <a href="http://192.168.65.254:3000/database.war">http://192.168.65.254:3000/database.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.tar">http://host.docker.internal:3000/internal.tar</a><br>
+      <a href="http://192.168.65.254:3000/internal.tar">http://192.168.65.254:3000/internal.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.cer">http://host.docker.internal:3000/host.docker.cer</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.cer">http://192.168.65.254:3000/host.docker.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.pem">http://host.docker.internal:3000/backup.pem</a><br>
+      <a href="http://192.168.65.254:3000/backup.pem">http://192.168.65.254:3000/backup.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.tar.lzma">http://host.docker.internal:3000/hostdockerinternal.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.tar.lzma">http://192.168.65.254:3000/hostdockerinternal.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.jks">http://host.docker.internal:3000/docker.jks</a><br>
+      <a href="http://192.168.65.254:3000/docker.jks">http://192.168.65.254:3000/docker.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.tar.bz2">http://host.docker.internal:3000/hostdocker.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.tar.bz2">http://192.168.65.254:3000/hostdocker.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.tgz">http://host.docker.internal:3000/archive.tgz</a><br>
+      <a href="http://192.168.65.254:3000/archive.tgz">http://192.168.65.254:3000/archive.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.war">http://host.docker.internal:3000/site.war</a><br>
+      <a href="http://192.168.65.254:3000/site.war">http://192.168.65.254:3000/site.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.tgz">http://host.docker.internal:3000/dump.tgz</a><br>
+      <a href="http://192.168.65.254:3000/dump.tgz">http://192.168.65.254:3000/dump.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.alz">http://host.docker.internal:3000/host_docker_internal.alz</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.alz">http://192.168.65.254:3000/host_docker_internal.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.war">http://host.docker.internal:3000/hostdockerinternal.war</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.war">http://192.168.65.254:3000/hostdockerinternal.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.tgz">http://host.docker.internal:3000/internal.tgz</a><br>
+      <a href="http://192.168.65.254:3000/internal.tgz">http://192.168.65.254:3000/internal.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.war">http://host.docker.internal:3000/hostdocker.war</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.war">http://192.168.65.254:3000/hostdocker.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.tgz">http://host.docker.internal:3000/site.tgz</a><br>
+      <a href="http://192.168.65.254:3000/site.tgz">http://192.168.65.254:3000/site.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.jks">http://host.docker.internal:3000/host_docker_internal.jks</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.jks">http://192.168.65.254:3000/host_docker_internal.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.war">http://host.docker.internal:3000/host_docker_internal.war</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.war">http://192.168.65.254:3000/host_docker_internal.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.war">http://host.docker.internal:3000/dump.war</a><br>
+      <a href="http://192.168.65.254:3000/dump.war">http://192.168.65.254:3000/dump.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.tar.lzma">http://host.docker.internal:3000/host.docker.internal.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.tar.lzma">http://192.168.65.254:3000/host.docker.internal.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.alz">http://host.docker.internal:3000/host.docker.internal.alz</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.alz">http://192.168.65.254:3000/host.docker.internal.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.tar">http://host.docker.internal:3000/database.tar</a><br>
+      <a href="http://192.168.65.254:3000/database.tar">http://192.168.65.254:3000/database.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.jks">http://host.docker.internal:3000/dump.jks</a><br>
+      <a href="http://192.168.65.254:3000/dump.jks">http://192.168.65.254:3000/dump.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.tar.bz2">http://host.docker.internal:3000/docker.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/docker.tar.bz2">http://192.168.65.254:3000/docker.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.war">http://host.docker.internal:3000/internal.war</a><br>
+      <a href="http://192.168.65.254:3000/internal.war">http://192.168.65.254:3000/internal.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.tar">http://host.docker.internal:3000/site.tar</a><br>
+      <a href="http://192.168.65.254:3000/site.tar">http://192.168.65.254:3000/site.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.tar.lzma">http://host.docker.internal:3000/backup.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/backup.tar.lzma">http://192.168.65.254:3000/backup.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.pem">http://host.docker.internal:3000/192.168.65.254.pem</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.pem">http://192.168.65.254:3000/192.168.65.254.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.jks">http://host.docker.internal:3000/host.docker.internal.jks</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.jks">http://192.168.65.254:3000/host.docker.internal.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.war">http://host.docker.internal:3000/host.docker.internal.war</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.war">http://192.168.65.254:3000/host.docker.internal.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.pem">http://host.docker.internal:3000/host.pem</a><br>
+      <a href="http://192.168.65.254:3000/host.pem">http://192.168.65.254:3000/host.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.tar">http://host.docker.internal:3000/dump.tar</a><br>
+      <a href="http://192.168.65.254:3000/dump.tar">http://192.168.65.254:3000/dump.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.tar.lzma">http://host.docker.internal:3000/hostdocker.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.tar.lzma">http://192.168.65.254:3000/hostdocker.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.jks">http://host.docker.internal:3000/site.jks</a><br>
+      <a href="http://192.168.65.254:3000/site.jks">http://192.168.65.254:3000/site.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.egg">http://host.docker.internal:3000/database.egg</a><br>
+      <a href="http://192.168.65.254:3000/database.egg">http://192.168.65.254:3000/database.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.egg">http://host.docker.internal:3000/docker.egg</a><br>
+      <a href="http://192.168.65.254:3000/docker.egg">http://192.168.65.254:3000/docker.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.tgz">http://host.docker.internal:3000/docker.tgz</a><br>
+      <a href="http://192.168.65.254:3000/docker.tgz">http://192.168.65.254:3000/docker.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.tar.lzma">http://host.docker.internal:3000/internal.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/internal.tar.lzma">http://192.168.65.254:3000/internal.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.tar">http://host.docker.internal:3000/backup.tar</a><br>
+      <a href="http://192.168.65.254:3000/backup.tar">http://192.168.65.254:3000/backup.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.war">http://host.docker.internal:3000/docker.war</a><br>
+      <a href="http://192.168.65.254:3000/docker.war">http://192.168.65.254:3000/docker.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.tgz">http://host.docker.internal:3000/hostdocker.tgz</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.tgz">http://192.168.65.254:3000/hostdocker.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.egg">http://host.docker.internal:3000/dump.egg</a><br>
+      <a href="http://192.168.65.254:3000/dump.egg">http://192.168.65.254:3000/dump.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.jks">http://host.docker.internal:3000/192.168.65.254.jks</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.jks">http://192.168.65.254:3000/192.168.65.254.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.tgz">http://host.docker.internal:3000/database.tgz</a><br>
+      <a href="http://192.168.65.254:3000/database.tgz">http://192.168.65.254:3000/database.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.alz">http://host.docker.internal:3000/hostdockerinternal.alz</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.alz">http://192.168.65.254:3000/hostdockerinternal.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.pem">http://host.docker.internal:3000/hostdocker.pem</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.pem">http://192.168.65.254:3000/hostdocker.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.cer">http://host.docker.internal:3000/backup.cer</a><br>
+      <a href="http://192.168.65.254:3000/backup.cer">http://192.168.65.254:3000/backup.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.tgz">http://host.docker.internal:3000/192.168.65.254.tgz</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.tgz">http://192.168.65.254:3000/192.168.65.254.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.tar.lzma">http://host.docker.internal:3000/host.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/host.tar.lzma">http://192.168.65.254:3000/host.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.war">http://host.docker.internal:3000/192.168.65.254.war</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.war">http://192.168.65.254:3000/192.168.65.254.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.egg">http://host.docker.internal:3000/site.egg</a><br>
+      <a href="http://192.168.65.254:3000/site.egg">http://192.168.65.254:3000/site.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.tgz">http://host.docker.internal:3000/host.tgz</a><br>
+      <a href="http://192.168.65.254:3000/host.tgz">http://192.168.65.254:3000/host.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.cer">http://host.docker.internal:3000/hostdocker.cer</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.cer">http://192.168.65.254:3000/hostdocker.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.alz">http://host.docker.internal:3000/host.docker.alz</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.alz">http://192.168.65.254:3000/host.docker.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.jks">http://host.docker.internal:3000/host.docker.jks</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.jks">http://192.168.65.254:3000/host.docker.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.cer">http://host.docker.internal:3000/hostdockerinternal.cer</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.cer">http://192.168.65.254:3000/hostdockerinternal.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.pem">http://host.docker.internal:3000/internal.pem</a><br>
+      <a href="http://192.168.65.254:3000/internal.pem">http://192.168.65.254:3000/internal.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.tgz">http://host.docker.internal:3000/host.docker.internal.tgz</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.tgz">http://192.168.65.254:3000/host.docker.internal.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.egg">http://host.docker.internal:3000/host_docker_internal.egg</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.egg">http://192.168.65.254:3000/host_docker_internal.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.tar.bz2">http://host.docker.internal:3000/192.168.65.254.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.tar.bz2">http://192.168.65.254:3000/192.168.65.254.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.war">http://host.docker.internal:3000/host.war</a><br>
+      <a href="http://192.168.65.254:3000/host.war">http://192.168.65.254:3000/host.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.tar">http://host.docker.internal:3000/192.168.65.254.tar</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.tar">http://192.168.65.254:3000/192.168.65.254.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.war">http://host.docker.internal:3000/host.docker.war</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.war">http://192.168.65.254:3000/host.docker.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.cer">http://host.docker.internal:3000/host.docker.internal.cer</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.cer">http://192.168.65.254:3000/host.docker.internal.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.tar.lzma">http://host.docker.internal:3000/192.168.65.254.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.tar.lzma">http://192.168.65.254:3000/192.168.65.254.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.tar">http://host.docker.internal:3000/archive.tar</a><br>
+      <a href="http://192.168.65.254:3000/archive.tar">http://192.168.65.254:3000/archive.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.cer">http://host.docker.internal:3000/database.cer</a><br>
+      <a href="http://192.168.65.254:3000/database.cer">http://192.168.65.254:3000/database.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.pem">http://host.docker.internal:3000/host_docker_internal.pem</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.pem">http://192.168.65.254:3000/host_docker_internal.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.alz">http://host.docker.internal:3000/docker.alz</a><br>
+      <a href="http://192.168.65.254:3000/docker.alz">http://192.168.65.254:3000/docker.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.jks">http://host.docker.internal:3000/backup.jks</a><br>
+      <a href="http://192.168.65.254:3000/backup.jks">http://192.168.65.254:3000/backup.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.alz">http://host.docker.internal:3000/dump.alz</a><br>
+      <a href="http://192.168.65.254:3000/dump.alz">http://192.168.65.254:3000/dump.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.pem">http://host.docker.internal:3000/docker.pem</a><br>
+      <a href="http://192.168.65.254:3000/docker.pem">http://192.168.65.254:3000/docker.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.tar.bz2">http://host.docker.internal:3000/internal.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/internal.tar.bz2">http://192.168.65.254:3000/internal.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.tar.bz2">http://host.docker.internal:3000/archive.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/archive.tar.bz2">http://192.168.65.254:3000/archive.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.war">http://host.docker.internal:3000/archive.war</a><br>
+      <a href="http://192.168.65.254:3000/archive.war">http://192.168.65.254:3000/archive.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.jks">http://host.docker.internal:3000/database.jks</a><br>
+      <a href="http://192.168.65.254:3000/database.jks">http://192.168.65.254:3000/database.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.tar">http://host.docker.internal:3000/hostdockerinternal.tar</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.tar">http://192.168.65.254:3000/hostdockerinternal.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.tar">http://host.docker.internal:3000/host_docker_internal.tar</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.tar">http://192.168.65.254:3000/host_docker_internal.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.tar.bz2">http://host.docker.internal:3000/hostdockerinternal.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.tar.bz2">http://192.168.65.254:3000/hostdockerinternal.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.tar.bz2">http://host.docker.internal:3000/host.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/host.tar.bz2">http://192.168.65.254:3000/host.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.pem">http://host.docker.internal:3000/host.docker.pem</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.pem">http://192.168.65.254:3000/host.docker.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.alz">http://host.docker.internal:3000/site.alz</a><br>
+      <a href="http://192.168.65.254:3000/site.alz">http://192.168.65.254:3000/site.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.tar.bz2">http://host.docker.internal:3000/host_docker_internal.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.tar.bz2">http://192.168.65.254:3000/host_docker_internal.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.cer">http://host.docker.internal:3000/archive.cer</a><br>
+      <a href="http://192.168.65.254:3000/archive.cer">http://192.168.65.254:3000/archive.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.alz">http://host.docker.internal:3000/internal.alz</a><br>
+      <a href="http://192.168.65.254:3000/internal.alz">http://192.168.65.254:3000/internal.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.alz">http://host.docker.internal:3000/hostdocker.alz</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.alz">http://192.168.65.254:3000/hostdocker.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.jks">http://host.docker.internal:3000/hostdockerinternal.jks</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.jks">http://192.168.65.254:3000/hostdockerinternal.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.egg">http://host.docker.internal:3000/192.168.65.254.egg</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.egg">http://192.168.65.254:3000/192.168.65.254.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.cer">http://host.docker.internal:3000/host.cer</a><br>
+      <a href="http://192.168.65.254:3000/host.cer">http://192.168.65.254:3000/host.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.tar.lzma">http://host.docker.internal:3000/archive.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/archive.tar.lzma">http://192.168.65.254:3000/archive.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.cer">http://host.docker.internal:3000/docker.cer</a><br>
+      <a href="http://192.168.65.254:3000/docker.cer">http://192.168.65.254:3000/docker.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.alz">http://host.docker.internal:3000/archive.alz</a><br>
+      <a href="http://192.168.65.254:3000/archive.alz">http://192.168.65.254:3000/archive.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.alz">http://host.docker.internal:3000/192.168.65.254.alz</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.alz">http://192.168.65.254:3000/192.168.65.254.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.pem">http://host.docker.internal:3000/archive.pem</a><br>
+      <a href="http://192.168.65.254:3000/archive.pem">http://192.168.65.254:3000/archive.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.pem">http://host.docker.internal:3000/database.pem</a><br>
+      <a href="http://192.168.65.254:3000/database.pem">http://192.168.65.254:3000/database.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.tar.lzma">http://host.docker.internal:3000/site.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/site.tar.lzma">http://192.168.65.254:3000/site.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.egg">http://host.docker.internal:3000/host.egg</a><br>
+      <a href="http://192.168.65.254:3000/host.egg">http://192.168.65.254:3000/host.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.cer">http://host.docker.internal:3000/host_docker_internal.cer</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.cer">http://192.168.65.254:3000/host_docker_internal.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/192.168.65.254.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/192.168.65.254.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/192.168.65.254.cer">http://host.docker.internal:3000/192.168.65.254.cer</a><br>
+      <a href="http://192.168.65.254:3000/192.168.65.254.cer">http://192.168.65.254:3000/192.168.65.254.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.tar">http://host.docker.internal:3000/hostdocker.tar</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.tar">http://192.168.65.254:3000/hostdocker.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.tar.bz2">http://host.docker.internal:3000/host.docker.internal.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.tar.bz2">http://192.168.65.254:3000/host.docker.internal.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.pem">http://host.docker.internal:3000/host.docker.internal.pem</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.pem">http://192.168.65.254:3000/host.docker.internal.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.tgz">http://host.docker.internal:3000/hostdockerinternal.tgz</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.tgz">http://192.168.65.254:3000/hostdockerinternal.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.pem">http://host.docker.internal:3000/hostdockerinternal.pem</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.pem">http://192.168.65.254:3000/hostdockerinternal.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.tar.lzma">http://host.docker.internal:3000/dump.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/dump.tar.lzma">http://192.168.65.254:3000/dump.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.tar">http://host.docker.internal:3000/docker.tar</a><br>
+      <a href="http://192.168.65.254:3000/docker.tar">http://192.168.65.254:3000/docker.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.jks">http://host.docker.internal:3000/hostdocker.jks</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.jks">http://192.168.65.254:3000/hostdocker.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.war</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.war: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.war">http://host.docker.internal:3000/backup.war</a><br>
+      <a href="http://192.168.65.254:3000/backup.war">http://192.168.65.254:3000/backup.war</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.tar">http://host.docker.internal:3000/host.docker.internal.tar</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.tar">http://192.168.65.254:3000/host.docker.internal.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.tar.lzma">http://host.docker.internal:3000/host_docker_internal.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.tar.lzma">http://192.168.65.254:3000/host_docker_internal.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.egg">http://host.docker.internal:3000/backup.egg</a><br>
+      <a href="http://192.168.65.254:3000/backup.egg">http://192.168.65.254:3000/backup.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.tgz">http://host.docker.internal:3000/backup.tgz</a><br>
+      <a href="http://192.168.65.254:3000/backup.tgz">http://192.168.65.254:3000/backup.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/site.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/site.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/site.pem">http://host.docker.internal:3000/site.pem</a><br>
+      <a href="http://192.168.65.254:3000/site.pem">http://192.168.65.254:3000/site.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host_docker_internal.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host_docker_internal.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host_docker_internal.tgz">http://host.docker.internal:3000/host_docker_internal.tgz</a><br>
+      <a href="http://192.168.65.254:3000/host_docker_internal.tgz">http://192.168.65.254:3000/host_docker_internal.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.alz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.alz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.alz">http://host.docker.internal:3000/database.alz</a><br>
+      <a href="http://192.168.65.254:3000/database.alz">http://192.168.65.254:3000/database.alz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.jks">http://host.docker.internal:3000/host.jks</a><br>
+      <a href="http://192.168.65.254:3000/host.jks">http://192.168.65.254:3000/host.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.internal.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.internal.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.internal.egg">http://host.docker.internal:3000/host.docker.internal.egg</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.internal.egg">http://192.168.65.254:3000/host.docker.internal.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.egg">http://host.docker.internal:3000/archive.egg</a><br>
+      <a href="http://192.168.65.254:3000/archive.egg">http://192.168.65.254:3000/archive.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.tar.lzma">http://host.docker.internal:3000/host.docker.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.tar.lzma">http://192.168.65.254:3000/host.docker.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/archive.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/archive.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/archive.jks">http://host.docker.internal:3000/archive.jks</a><br>
+      <a href="http://192.168.65.254:3000/archive.jks">http://192.168.65.254:3000/archive.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.jks</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.jks: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.jks">http://host.docker.internal:3000/internal.jks</a><br>
+      <a href="http://192.168.65.254:3000/internal.jks">http://192.168.65.254:3000/internal.jks</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/docker.tar.lzma</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/docker.tar.lzma: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/docker.tar.lzma">http://host.docker.internal:3000/docker.tar.lzma</a><br>
+      <a href="http://192.168.65.254:3000/docker.tar.lzma">http://192.168.65.254:3000/docker.tar.lzma</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dump.pem</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dump.pem: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/dump.pem">http://host.docker.internal:3000/dump.pem</a><br>
+      <a href="http://192.168.65.254:3000/dump.pem">http://192.168.65.254:3000/dump.pem</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdockerinternal.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdockerinternal.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdockerinternal.egg">http://host.docker.internal:3000/hostdockerinternal.egg</a><br>
+      <a href="http://192.168.65.254:3000/hostdockerinternal.egg">http://192.168.65.254:3000/hostdockerinternal.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.tar">http://host.docker.internal:3000/host.tar</a><br>
+      <a href="http://192.168.65.254:3000/host.tar">http://192.168.65.254:3000/host.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/hostdocker.egg</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/hostdocker.egg: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/hostdocker.egg">http://host.docker.internal:3000/hostdocker.egg</a><br>
+      <a href="http://192.168.65.254:3000/hostdocker.egg">http://192.168.65.254:3000/hostdocker.egg</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/database.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/database.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/database.tar.bz2">http://host.docker.internal:3000/database.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/database.tar.bz2">http://192.168.65.254:3000/database.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/internal.cer</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/internal.cer: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/internal.cer">http://host.docker.internal:3000/internal.cer</a><br>
+      <a href="http://192.168.65.254:3000/internal.cer">http://192.168.65.254:3000/internal.cer</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.tar</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.tar: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.tar">http://host.docker.internal:3000/host.docker.tar</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.tar">http://192.168.65.254:3000/host.docker.tar</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/host.docker.tgz</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/host.docker.tgz: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/host.docker.tgz">http://host.docker.internal:3000/host.docker.tgz</a><br>
+      <a href="http://192.168.65.254:3000/host.docker.tgz">http://192.168.65.254:3000/host.docker.tgz</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/backup.tar.bz2</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/backup.tar.bz2: Potentially interesting backup/cert file found. .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/backup.tar.bz2">http://host.docker.internal:3000/backup.tar.bz2</a><br>
+      <a href="http://192.168.65.254:3000/backup.tar.bz2">http://192.168.65.254:3000/backup.tar.bz2</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/530.html'>https://cwe.mitre.org/data/definitions/530.html</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Suggested security header missing: strict-transport-security.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Suggested security header missing: permissions-policy.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Suggested security header missing: content-security-policy.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP'>https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Suggested security header missing: referrer-policy.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/">http://host.docker.internal:3000/</a><br>
+      <a href="http://192.168.65.254:3000/">http://192.168.65.254:3000/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy</a></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/ftp/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/ftp/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/ftp/">http://host.docker.internal:3000/ftp/</a><br>
+      <a href="http://192.168.65.254:3000/ftp/">http://192.168.65.254:3000/ftp/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/public/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/public/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/public/">http://host.docker.internal:3000/public/</a><br>
+      <a href="http://192.168.65.254:3000/public/">http://192.168.65.254:3000/public/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/.htpasswd</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/.htpasswd: Contains authorization information.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://host.docker.internal:3000/.htpasswd">http://host.docker.internal:3000/.htpasswd</a><br>
+      <a href="http://192.168.65.254:3000/.htpasswd">http://192.168.65.254:3000/.htpasswd</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</table>
+
+<div>
+<p></p>
+<table class="headerTable">
+ <tr>
+  <td>Host Summary</td>
+ </tr>
+</table>
+<table  class="dataTable">
+ <tr>
+  <td class="column-head">Start Time</td>
+  <td>2026-02-26 00:57:02</td>
+ </tr>
+ <tr>
+  <td class="column-head">End Time</td>
+  <td>2026-02-26 01:02:03</td>
+ </tr>
+ <tr>
+  <td class="column-head">Elapsed Time</td>
+  <td>301 seconds</td>
+ </tr>
+ <tr>
+  <td class="column-head">Statistics</td>
+  <td>6032 requests, 2 errors, 152 findings</td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable">
+  <tr>
+    <td>Scan Summary</td>
+  </tr>
+</table>
+<table class="dataTable">
+  <tr>
+    <td class="column-head">Software Details</td>
+    <td><a href="http://cirt.net/">Nikto 2.5.0</a></td>
+  <tr>
+    <td class="column-head">CLI Options</td>
+    <td>-h http://host.docker.internal:3000 -ask no -maxtime 5m -Format htm -output /output/nikto-report.html</td>
+  </tr>
+  <tr>
+    <td class="column-head">Hosts Tested</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="column-head">Start Time</td>
+    <td>Thu Feb 26 00:57:02 2026</td>
+  </tr>
+  <tr>
+    <td class="column-head">End Time</td>
+    <td>Thu Feb 26 01:02:03 2026</td>
+  </tr>
+  <tr>
+    <td class="column-head">Elapsed Time</td>
+    <td>301 seconds</td>
+  </tr>
+</table>
+<p></p>
+<p class="copyright">&copy; 2008 Chris Sullo</p>
+
+<!-- (c) 2008 Chris Sullo -->
+
+</body>
+</html>
+
