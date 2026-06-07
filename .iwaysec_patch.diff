@@ -1,11 +1,11 @@
---- a/lib/insecurity.ts
-+++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
- 
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
- 
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
+--- a/routes/vulnCodeSnippet.ts
++++ b/routes/vulnCodeSnippet.ts
+@@ -87,7 +87,7 @@
+   const verdict = getVerdict(vulnLines, neutralLines, selectedLines)
+   let hint
+   if (fs.existsSync('./data/static/codefixes/' + key + '.info.yml')) {
+-    const codingChallengeInfos = yaml.load(fs.readFileSync('./data/static/codefixes/' + key + '.info.yml', 'utf8'))
++    const codingChallengeInfos = JSON.parse(fs.readFileSync('./data/static/codefixes/' + key + '.json', 'utf8'))
+     if (codingChallengeInfos?.hints) {
+       if (accuracy.getFindItAttempts(key) > codingChallengeInfos.hints.length) {
+         if (vulnLines.length === 1) {
