@@ -1,11 +1,11 @@
---- a/lib/insecurity.ts
-+++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
+--- a/routes/logfileServer.ts
++++ b/routes/logfileServer.ts
+@@ -11,7 +11,7 @@
+     const file = params.file
  
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
- 
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
+     if (!file.includes('/')) {
+-      res.sendFile(path.resolve('logs/', file))
++       res.sendFile(file, { root: path.resolve('logs/') })
+     } else {
+       res.status(403)
+       next(new Error('File names cannot contain forward slashes!'))
