@@ -1,0 +1,1 @@
+Í 2cssXhrAfrontend/src/app/feedback-details/feedback-details.component.scss

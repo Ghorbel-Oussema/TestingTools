@@ -1,0 +1,1 @@
+ó 2cssXMhr7frontend/src/app/score-board/score-board.component.scss

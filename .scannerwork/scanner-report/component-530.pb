@@ -1,0 +1,1 @@
+’ 2tsXuhr2frontend/src/app/Services/configuration.service.ts

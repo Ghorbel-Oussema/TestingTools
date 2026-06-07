@@ -1,0 +1,1 @@
+ã 2tsX`hrdata/staticData.ts

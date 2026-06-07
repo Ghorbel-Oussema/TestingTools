@@ -1,0 +1,1 @@
+› 2webXphr?frontend/src/app/product-details/product-details.component.html

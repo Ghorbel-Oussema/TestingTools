@@ -1,0 +1,1 @@
+¼ 2webXghrTfrontend/src/app/score-board/components/challenge-card/challenge-card.component.html

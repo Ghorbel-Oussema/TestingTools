@@ -1,0 +1,1 @@
+© 2tsXhr4data/static/codefixes/xssBonusChallenge_1_correct.ts

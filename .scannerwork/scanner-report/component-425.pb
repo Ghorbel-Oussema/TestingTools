@@ -1,0 +1,1 @@
+© 2tsX3hr2frontend/src/app/qr-code/qr-code.component.spec.ts

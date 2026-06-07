@@ -1,0 +1,1 @@
+ò 2cssX7hr=frontend/src/app/welcome-banner/welcome-banner.component.scss

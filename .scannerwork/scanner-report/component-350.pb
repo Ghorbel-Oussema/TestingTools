@@ -1,0 +1,1 @@
+Þ 2cssX>hr=frontend/src/app/mat-search-bar/mat-search-bar.component.scss

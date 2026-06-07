@@ -1,0 +1,1 @@
+ö 2tsXhr7frontend/src/app/score-board/types/EnrichedChallenge.ts

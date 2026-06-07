@@ -1,0 +1,1 @@
+3 2tsXhr<data/static/codefixes/directoryListingChallenge_1_correct.ts

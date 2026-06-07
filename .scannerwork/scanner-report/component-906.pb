@@ -1,0 +1,1 @@
+Š 2tsX;hrroutes/imageCaptcha.ts

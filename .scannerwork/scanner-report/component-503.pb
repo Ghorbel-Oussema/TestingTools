@@ -1,0 +1,1 @@
+÷ 2webXfhr;frontend/src/app/search-result/search-result.component.html

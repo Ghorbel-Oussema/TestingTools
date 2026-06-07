@@ -1,0 +1,1 @@
+ò 2webX8hr7frontend/src/app/score-board/score-board.component.html

@@ -1,0 +1,1 @@
+á 2webXhrLfrontend/src/app/score-board/components/score-card/score-card.component.html

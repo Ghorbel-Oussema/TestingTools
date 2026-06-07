@@ -1,0 +1,1 @@
+§ 2webXhr/frontend/src/app/qr-code/qr-code.component.html

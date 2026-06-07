@@ -1,0 +1,1 @@
+ì 2tsX*hrGfrontend/src/app/score-board/filter-settings/query-params-converters.ts

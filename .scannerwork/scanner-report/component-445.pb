@@ -1,0 +1,1 @@
+½ 2cssXÌhrTfrontend/src/app/score-board/components/challenge-card/challenge-card.component.scss

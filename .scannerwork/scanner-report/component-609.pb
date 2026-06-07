@@ -1,0 +1,1 @@
+á 2webX-hr-frontend/src/app/wallet/wallet.component.html

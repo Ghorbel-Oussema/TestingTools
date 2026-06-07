@@ -1,0 +1,1 @@
+ø 2cssX¨hr;frontend/src/app/search-result/search-result.component.scss

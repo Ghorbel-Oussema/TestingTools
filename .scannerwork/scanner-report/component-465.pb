@@ -1,0 +1,1 @@
+Ñ 2tsX;hrtfrontend/src/app/score-board/components/filter-settings/components/category-filter/category-filter.component.spec.ts

@@ -1,0 +1,1 @@
+^ 2tsXhr0data/static/codefixes/noSqlReviewsChallenge_1.ts

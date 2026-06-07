@@ -1,0 +1,1 @@
+— 2tsX5hr8frontend/src/hacking-instructor/challenges/scoreBoard.ts

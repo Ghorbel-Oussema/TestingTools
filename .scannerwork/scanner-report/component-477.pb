@@ -1,0 +1,1 @@
+Ý 2webX!hr‚frontend/src/app/score-board/components/hacking-challenge-progress-score-card/hacking-challenge-progress-score-card.component.html

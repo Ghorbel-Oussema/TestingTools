@@ -1,0 +1,1 @@
+á 2tsXhr*frontend/src/app/Models/challenge.model.ts

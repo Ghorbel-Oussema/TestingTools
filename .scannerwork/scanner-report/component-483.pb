@@ -1,0 +1,1 @@
+ã 2tsXhrOfrontend/src/app/score-board/components/score-card/score-card.component.spec.ts

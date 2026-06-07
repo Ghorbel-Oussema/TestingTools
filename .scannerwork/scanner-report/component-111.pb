@@ -1,0 +1,1 @@
+o 2tsX'hr1data/static/codefixes/registerAdminChallenge_4.ts

@@ -1,0 +1,1 @@
+Å 2cssXhr€frontend/src/app/score-board/components/coding-challenge-progress-score-card/coding-challenge-progress-score-card.component.scss

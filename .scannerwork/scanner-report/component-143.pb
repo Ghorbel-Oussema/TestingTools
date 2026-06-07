@@ -1,0 +1,1 @@
+è 2tsXøhr6data/static/codefixes/scoreBoardChallenge_1_correct.ts

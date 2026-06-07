@@ -1,0 +1,1 @@
+n 2tsX(hr9data/static/codefixes/registerAdminChallenge_3_correct.ts

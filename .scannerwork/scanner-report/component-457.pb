@@ -1,0 +1,1 @@
+É 2cssX7hrtfrontend/src/app/score-board/components/difficulty-overview-score-card/difficulty-overview-score-card.component.scss

@@ -1,0 +1,1 @@
+Â 2tsXnhrwfrontend/src/app/score-board/components/challenges-unavailable-warning/challenges-unavailable-warning.component.spec.ts

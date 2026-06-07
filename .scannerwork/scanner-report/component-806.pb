@@ -1,0 +1,1 @@
+¦ 2jsXhrfrontend/webpack.angular.js

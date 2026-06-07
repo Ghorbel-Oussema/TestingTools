@@ -1,0 +1,1 @@
+… 2cssXphr=frontend/src/app/administration/administration.component.scss

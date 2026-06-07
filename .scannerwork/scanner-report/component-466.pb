@@ -1,0 +1,1 @@
+Ò 2tsX<hrofrontend/src/app/score-board/components/filter-settings/components/category-filter/category-filter.component.ts

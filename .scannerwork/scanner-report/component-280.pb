@@ -1,0 +1,1 @@
+˜ 2webX-hrMfrontend/src/app/challenge-status-badge/challenge-status-badge.component.html

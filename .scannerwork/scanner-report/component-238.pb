@@ -1,0 +1,1 @@
+î 2jsX8hrfrontend/eslint.config.js

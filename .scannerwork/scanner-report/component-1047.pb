@@ -1,0 +1,2 @@
+— 2tsX
+hr"test/cypress/e2e/tokenSale.spec.ts

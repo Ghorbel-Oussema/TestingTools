@@ -1,0 +1,1 @@
+è 2webXhrPfrontend/src/app/score-board/components/warning-card/warning-card.component.html

@@ -1,0 +1,1 @@
+¿ 2tsX)hrRfrontend/src/app/score-board/components/challenge-card/challenge-card.component.ts

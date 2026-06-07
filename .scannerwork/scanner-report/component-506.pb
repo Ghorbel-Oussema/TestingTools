@@ -1,0 +1,1 @@
+ú 2tsX¬hr9frontend/src/app/search-result/search-result.component.ts

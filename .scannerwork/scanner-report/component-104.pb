@@ -1,0 +1,1 @@
+h 2tsXhr:data/static/codefixes/redirectCryptoCurrencyChallenge_2.ts

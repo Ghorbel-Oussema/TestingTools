@@ -1,0 +1,1 @@
+¯ 2webX…hr1frontend/src/app/register/register.component.html

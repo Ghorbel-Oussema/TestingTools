@@ -1,0 +1,1 @@
+¦ 2tsX|hr=frontend/src/app/purchase-basket/purchase-basket.component.ts

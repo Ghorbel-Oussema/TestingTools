@@ -1,0 +1,1 @@
+× 2webXRhrVfrontend/src/app/score-board/components/filter-settings/filter-settings.component.html

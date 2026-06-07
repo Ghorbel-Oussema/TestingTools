@@ -1,0 +1,1 @@
+â 2cssX3hrLfrontend/src/app/score-board/components/score-card/score-card.component.scss

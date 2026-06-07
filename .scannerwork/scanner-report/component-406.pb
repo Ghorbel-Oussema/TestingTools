@@ -1,0 +1,1 @@
+– 2tsX,hr;frontend/src/app/privacy-policy/privacy-policy.component.ts

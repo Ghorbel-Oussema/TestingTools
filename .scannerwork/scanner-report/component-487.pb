@@ -1,0 +1,1 @@
+ç 2tsX#hr`frontend/src/app/score-board/components/tutorial-mode-warning/tutorial-mode-warning.component.ts

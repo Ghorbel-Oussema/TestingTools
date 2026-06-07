@@ -1,0 +1,1 @@
+Þ 2cssXhr‚frontend/src/app/score-board/components/hacking-challenge-progress-score-card/hacking-challenge-progress-score-card.component.scss

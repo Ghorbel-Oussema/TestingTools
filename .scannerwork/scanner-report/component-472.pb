@@ -1,0 +1,1 @@
+Ø 2cssXChrVfrontend/src/app/score-board/components/filter-settings/filter-settings.component.scss

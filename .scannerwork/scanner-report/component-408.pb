@@ -1,0 +1,1 @@
+˜ 2cssXhrAfrontend/src/app/privacy-security/privacy-security.component.scss

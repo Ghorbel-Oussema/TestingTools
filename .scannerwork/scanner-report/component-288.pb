@@ -1,0 +1,1 @@
+  2webX/hr/frontend/src/app/chatbot/chatbot.component.html

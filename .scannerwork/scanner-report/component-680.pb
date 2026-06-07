@@ -1,0 +1,1 @@
+¨ 2cssX=hr.frontend/src/assets/public/css/userProfile.css

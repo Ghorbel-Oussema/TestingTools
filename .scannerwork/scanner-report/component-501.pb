@@ -1,0 +1,1 @@
+õ 2tsXÍhr5frontend/src/app/score-board/score-board.component.ts

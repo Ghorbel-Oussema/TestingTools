@@ -1,0 +1,1 @@
+è 2cssXhr-frontend/src/app/navbar/navbar.component.scss

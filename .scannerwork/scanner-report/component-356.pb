@@ -1,0 +1,1 @@
+ä 2tsXhr(frontend/src/app/Models/product.model.ts

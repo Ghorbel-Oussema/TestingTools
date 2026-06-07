@@ -1,0 +1,1 @@
+ª 2tsX&hr-frontend/src/app/qr-code/qr-code.component.ts

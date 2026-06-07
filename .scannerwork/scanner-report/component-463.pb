@@ -1,0 +1,1 @@
+Ï 2webXhrqfrontend/src/app/score-board/components/filter-settings/components/category-filter/category-filter.component.html

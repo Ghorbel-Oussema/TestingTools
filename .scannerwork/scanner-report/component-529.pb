@@ -1,0 +1,1 @@
+‘ 2tsXChr7frontend/src/app/Services/configuration.service.spec.ts

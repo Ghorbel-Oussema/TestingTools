@@ -1,0 +1,1 @@
+• 2tsXHhr#test/cypress/e2e/scoreBoard.spec.ts

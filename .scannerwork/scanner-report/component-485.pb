@@ -1,0 +1,1 @@
+å 2webX	hrbfrontend/src/app/score-board/components/tutorial-mode-warning/tutorial-mode-warning.component.html

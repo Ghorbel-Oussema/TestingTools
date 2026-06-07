@@ -1,0 +1,1 @@
+c 2tsXhr,data/static/codefixes/redirectChallenge_2.ts

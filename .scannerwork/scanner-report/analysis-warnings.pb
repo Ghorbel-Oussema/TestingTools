@@ -1,0 +1,4 @@
+ò
+éYour code is analyzed as compatible with python 2 and 3 by default. This will prevent the detection of issues specific to python 2 or python 3. You can get a more precise analysis by setting a python version in your configuration via the parameter "sonar.python.version"È”¡¸€3À
+¡Shallow clone detected during the analysis. Some files will miss SCM information. This will affect features like auto-assignment of issues. Please configure your build to disable shallow clone.–„‚¸€3•
+õMissing blame information for 752 files. This may lead to some features not working correctly. Please check the analysis logs and refer to <a href="https://docs.sonarqube.org/9.9/analyzing-source-code/scm-integration/" rel="noopener noreferrer" target="_blank">the documentation</a>.Ê„‚¸€3

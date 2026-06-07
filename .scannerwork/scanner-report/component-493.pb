@@ -1,0 +1,1 @@
+í 2tsXfhrJfrontend/src/app/score-board/filter-settings/query-params-coverter.spec.ts

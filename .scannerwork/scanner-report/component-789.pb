@@ -1,0 +1,1 @@
+• 2tsX*hr;frontend/src/hacking-instructor/challenges/privacyPolicy.ts

@@ -1,0 +1,1 @@
+Ó 2tsX‘hr=frontend/src/app/forgot-password/forgot-password.component.ts

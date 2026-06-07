@@ -1,0 +1,1 @@
+¾ 2tsXBhrWfrontend/src/app/score-board/components/challenge-card/challenge-card.component.spec.ts
