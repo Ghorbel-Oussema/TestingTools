@@ -1,11 +1,11 @@
---- a/lib/insecurity.ts
-+++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
- 
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
- 
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
+--- a/data/static/codefixes/dbSchemaChallenge_1.ts
++++ b/data/static/codefixes/dbSchemaChallenge_1.ts
+@@ -2,7 +2,7 @@
+   return (req: Request, res: Response, next: NextFunction) => {
+     let criteria: any = req.query.q === 'undefined' ? '' : req.query.q ?? ''
+     criteria = (criteria.length <= 200) ? criteria : criteria.substring(0, 200)
+-    models.sequelize.query("SELECT * FROM Products WHERE ((name LIKE :criteria OR description LIKE :criteria) AND deletedAt IS NULL) ORDER BY name", { replacements: { criteria: `%${sequelize.escape(criteria)}%` }, type: models.sequelize.QueryTypes.SELECT })
++    models.sequelize.query("SELECT * FROM Products WHERE ((name LIKE :criteria OR description LIKE :criteria) AND deletedAt IS NULL) ORDER BY name", { replacements: { criteria: `%${criteria}%` }, type: models.sequelize.QueryTypes.SELECT })
+       .then(([products]: any) => {
+         const dataString = JSON.stringify(products)
+         for (let i = 0; i < products.length; i++) {
