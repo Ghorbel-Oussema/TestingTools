@@ -1,11 +1,17 @@
---- a/lib/insecurity.ts
-+++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
- 
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
- 
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
+--- a/routes/b2bOrder.ts
++++ b/routes/b2bOrder.ts
+@@ -19,8 +19,12 @@
+       const orderLinesData = body.orderLinesData || ''
+       try {
+         const sandbox = { safeEval, orderLinesData }
+-        vm.createContext(sandbox)
+-        vm.runInContext('safeEval(orderLinesData)', sandbox, { timeout: 2000 })
++         const result = sandbox.safeEval(orderLinesData);
++         if (result !== undefined) {
++             res.json({ cid: body.cid, orderNo: uniqueOrderNumber(), paymentDue: dateTwoWeeksFromNow() })
++         } else {
++             next(new Error('Failed to evaluate order lines data'))
++         }
+         res.json({ cid: body.cid, orderNo: uniqueOrderNumber(), paymentDue: dateTwoWeeksFromNow() })
+       } catch (err) {
+         if (utils.getErrorMessage(err).match(/Script execution timed out.*/) != null) {
