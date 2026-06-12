@@ -1,11 +1,11 @@
---- a/lib/insecurity.ts
-+++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
+--- a/routes/userProfile.ts
++++ b/routes/userProfile.ts
+@@ -71,7 +71,7 @@
+     const theme = themes[themeKey] || themes['bluegrey-lightgreen']
  
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
- 
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
+     if (username) {
+-      template = template.replace(/_username_/g, username)
++      template = template.replace(/_username_/g, entities.encode(username))
+     }
+     template = template.replace(/_emailHash_/g, security.hash(user?.email))
+     template = template.replace(/_title_/g, entities.encode(config.get<string>('application.name')))
