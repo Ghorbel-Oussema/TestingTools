@@ -1,11 +1,15 @@
---- a/lib/insecurity.ts
-+++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
+--- a/data/staticData.ts
++++ b/data/staticData.ts
+@@ -5,7 +5,11 @@
+ import { type ChallengeKey } from 'models/challenge'
  
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
- 
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
+ export async function loadStaticData (file: string) {
+-  const filePath = path.resolve('./data/static/' + file + '.yml')
++  const filePath = path.join('./data/static/', file + '.yml')
++  const normalizedPath = path.normalize(filePath)
++  if (!normalizedPath.startsWith('./data/static/')) {
++    throw new Error('Path traversal attempt detected')
++  }
+   return await readFile(filePath, 'utf8')
+     .then(safeLoad)
+     .catch(() => logger.error('Could not open file: "' + filePath + '"'))
