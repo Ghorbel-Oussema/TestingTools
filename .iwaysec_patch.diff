@@ -1,11 +1,11 @@
 --- a/lib/insecurity.ts
 +++ b/lib/insecurity.ts
-@@ -41,7 +41,7 @@
- }
+@@ -53,7 +53,7 @@
  
- export const hash = (data: string) => crypto.createHash('md5').update(data).digest('hex')
--export const hmac = (data: string) => crypto.createHmac('sha256', 'pa4qacea4VK9t9nGv7yZtwmj').update(data).digest('hex')
-+export const hmac = (data: string) => crypto.createHmac('sha256', process.env.HMAC_SECRET || '').update(data).digest('hex')
+ export const isAuthorized = () => expressJwt(({ secret: publicKey }) as any)
+ export const denyAll = () => expressJwt({ secret: '' + Math.random() } as any)
+-export const authorize = (user = {}) => jwt.sign(user, privateKey, { expiresIn: '6h', algorithm: 'RS256' })
++export const authorize = (user = {}) => jwt.sign(user, process.env.PRIVATE_KEY, { expiresIn: '6h', algorithm: 'RS256' })
+ export const verify = (token: string) => token ? (jws.verify as ((token: string, secret: string) => boolean))(token, publicKey) : false
+ export const decode = (token: string) => { return jws.decode(token)?.payload }
  
- export const cutOffPoisonNullByte = (str: string) => {
-   const nullByte = '%00'
